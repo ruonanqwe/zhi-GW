@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -rf dist && next build",
     "start": "next start",
     "lint": "next lint"
   },
