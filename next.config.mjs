@@ -15,6 +15,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    domains: ['netlify.app']
   },
   experimental: {
     webpackBuildWorker: true,
