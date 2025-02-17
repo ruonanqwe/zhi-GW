@@ -1,25 +1,19 @@
 [build]
   command = "npm run build"
-  publish = "dist"
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18.17.0"
   NPM_VERSION = "9.6.7"
   NEXT_TELEMETRY_DISABLED = "1"
-  NEXT_SHARP_PATH = "/tmp/node_modules/sharp"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-  from = "/_next/image/*"
-  query = { q = ":quality", url = ":url", w = ":width" }
-  to = "/.netlify/images?url=:url&w=:width&q=:quality"
+  from = "/*"
+  to = "/index.html"
   status = 200
-  force = true
-
-[functions]
-  node_bundler = "esbuild"
 
 [[headers]]
   for = "/*"
