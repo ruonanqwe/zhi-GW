@@ -58,7 +58,7 @@ export default function Home() {
       <Header />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 min-h-[calc(100vh-4rem)]">
-        <div className="container mx-auto px-4 h-full flex items-center justify-center -mt-16">
+        <div className="container mx-auto px-4 py-20 flex items-center justify-center">
           <div className="grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto w-full py-10">
             <div className="space-y-8">
               <div className="inline-flex items-center px-4 py-2 bg-blue-50 dark:bg-blue-900/30 rounded-full text-sm font-medium text-blue-700 dark:text-blue-300 mb-8">
@@ -154,7 +154,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="bg-gray-50 dark:bg-gray-900 py-20 lg:py-32">
+      <section className="bg-gray-50 dark:bg-gray-900 py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
