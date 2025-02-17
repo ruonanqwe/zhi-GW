@@ -1,36 +1,68 @@
 {
   "name": "nct",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "农财通 - 智慧农业金融服务平台",
   "private": true,
+  "author": {
+    "name": "邓博海",
+    "email": "1963876196@qq.com"
+  },
+  "homepage": "https://nong-gw.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.comruonanqwe/zhi-GW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruonanqwe/zhi-GWs",    "email": "1963876196@qq.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@radix-ui/react-dialog": "1.0.4",
-    "@radix-ui/react-slot": "1.0.2",
-    "@radix-ui/react-toast": "1.1.4",
-    "class-variance-authority": "0.6.1",
-    "clsx": "2.0.0",
-    "embla-carousel-react": "8.0.0-rc14",
-    "lucide-react": "0.279.0",
-    "next": "13.4.19",
+    "@radix-ui/react-dialog": "1.0.3",
+    "@radix-ui/react-slot": "1.0.1",
+    "@radix-ui/react-toast": "1.1.3",
+    "class-variance-authority": "0.6.0",
+    "clsx": "1.2.1",
+    "embla-carousel-react": "7.1.0",
+    "lucide-react": "0.244.0",
+    "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwind-merge": "1.14.0",
-    "tailwindcss-animate": "1.0.7"
+    "tailwind-merge": "1.13.2",
+    "tailwindcss-animate": "1.0.6"
   },
   "devDependencies": {
-    "@types/node": "20.5.7",
-    "@types/react": "18.2.21",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
-    "eslint": "8.48.0",
-    "eslint-config-next": "13.4.19",
-    "postcss": "8.4.29",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
-  }
+    "autoprefixer": "10.4.14",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "eslint-config-prettier": "8.8.0",
+    "postcss": "8.4.27",
+    "prettier": "2.8.8",
+    "prettier-plugin-tailwindcss": "0.4.1",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "agriculture",
+    "finance",
+    "management",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss"
+  ],
+  "license": "MIT"
 }
