@@ -58,7 +58,7 @@ export default function Home() {
       <Header />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 min-h-[calc(100vh-4rem)]">
-        <div className="container mx-auto px-4 py-20 flex items-center justify-center">
+        <div className="container mx-auto px-4 min-h-[calc(100vh-4rem)] flex items-center justify-center">
           <div className="grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto w-full py-10">
             <div className="space-y-8">
               <div className="inline-flex items-center px-4 py-2 bg-blue-50 dark:bg-blue-900/30 rounded-full text-sm font-medium text-blue-700 dark:text-blue-300 mb-8">
@@ -97,7 +97,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative lg:h-[600px]">
               <Carousel />
               <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 w-[80%]">
                 <div className="flex items-center justify-between">
@@ -118,7 +118,7 @@ export default function Home() {
 
       {/* Features Section */}
       <section className="py-20 bg-gray-50 dark:bg-gray-900">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">核心功能</h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
@@ -155,7 +155,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <section className="bg-gray-50 dark:bg-gray-900 py-20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6">联系我们</h2>
