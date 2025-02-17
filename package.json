@@ -34,7 +34,9 @@
     "embla-carousel-react": "8.0.0",
     "lucide-react": "0.300.0",
     "tailwind-merge": "2.2.0",
-    "tailwindcss-animate": "1.0.7"
+    "tailwindcss-animate": "1.0.7",
+    "chokidar": "3.5.3",
+    "binary-extensions": "2.2.0"
   },
   "devDependencies": {
     "typescript": "5.3.3",
